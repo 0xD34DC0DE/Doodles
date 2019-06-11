@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Doodles", "Doodles\Doodles.vcxproj", "{80E6C211-EAF5-458F-AC9E-480D7CB96592}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LangtonAnt", "Doodles\Doodles.vcxproj", "{80E6C211-EAF5-458F-AC9E-480D7CB96592}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SudokuGenerator", "SudokuGenerator\SudokuGenerator.vcxproj", "{0C842E2F-B0A5-471F-89CA-8634A2ABCC88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rgb2lab", "rgb2lab\rgb2lab.vcxproj", "{7A126A74-CB74-44BE-8837-5ED8FB58F968}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeGolfLangtonAnt", "CodeGolfLangtonAnt\CodeGolfLangtonAnt.vcxproj", "{E927976B-3AD0-447D-A860-43CFA47F73DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperSmallBitmapGenerator", "SuperSmallBitmapGenerator\SuperSmallBitmapGenerator.vcxproj", "{5013BF94-8D54-433B-B45E-6F12E4BFA03C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,38 @@ Global
 		{80E6C211-EAF5-458F-AC9E-480D7CB96592}.Release|x64.Build.0 = Release|x64
 		{80E6C211-EAF5-458F-AC9E-480D7CB96592}.Release|x86.ActiveCfg = Release|Win32
 		{80E6C211-EAF5-458F-AC9E-480D7CB96592}.Release|x86.Build.0 = Release|Win32
+		{0C842E2F-B0A5-471F-89CA-8634A2ABCC88}.Debug|x64.ActiveCfg = Debug|x64
+		{0C842E2F-B0A5-471F-89CA-8634A2ABCC88}.Debug|x64.Build.0 = Debug|x64
+		{0C842E2F-B0A5-471F-89CA-8634A2ABCC88}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C842E2F-B0A5-471F-89CA-8634A2ABCC88}.Debug|x86.Build.0 = Debug|Win32
+		{0C842E2F-B0A5-471F-89CA-8634A2ABCC88}.Release|x64.ActiveCfg = Release|x64
+		{0C842E2F-B0A5-471F-89CA-8634A2ABCC88}.Release|x64.Build.0 = Release|x64
+		{0C842E2F-B0A5-471F-89CA-8634A2ABCC88}.Release|x86.ActiveCfg = Release|Win32
+		{0C842E2F-B0A5-471F-89CA-8634A2ABCC88}.Release|x86.Build.0 = Release|Win32
+		{7A126A74-CB74-44BE-8837-5ED8FB58F968}.Debug|x64.ActiveCfg = Debug|x64
+		{7A126A74-CB74-44BE-8837-5ED8FB58F968}.Debug|x64.Build.0 = Debug|x64
+		{7A126A74-CB74-44BE-8837-5ED8FB58F968}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A126A74-CB74-44BE-8837-5ED8FB58F968}.Debug|x86.Build.0 = Debug|Win32
+		{7A126A74-CB74-44BE-8837-5ED8FB58F968}.Release|x64.ActiveCfg = Release|x64
+		{7A126A74-CB74-44BE-8837-5ED8FB58F968}.Release|x64.Build.0 = Release|x64
+		{7A126A74-CB74-44BE-8837-5ED8FB58F968}.Release|x86.ActiveCfg = Release|Win32
+		{7A126A74-CB74-44BE-8837-5ED8FB58F968}.Release|x86.Build.0 = Release|Win32
+		{E927976B-3AD0-447D-A860-43CFA47F73DC}.Debug|x64.ActiveCfg = Debug|x64
+		{E927976B-3AD0-447D-A860-43CFA47F73DC}.Debug|x64.Build.0 = Debug|x64
+		{E927976B-3AD0-447D-A860-43CFA47F73DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{E927976B-3AD0-447D-A860-43CFA47F73DC}.Debug|x86.Build.0 = Debug|Win32
+		{E927976B-3AD0-447D-A860-43CFA47F73DC}.Release|x64.ActiveCfg = Release|x64
+		{E927976B-3AD0-447D-A860-43CFA47F73DC}.Release|x64.Build.0 = Release|x64
+		{E927976B-3AD0-447D-A860-43CFA47F73DC}.Release|x86.ActiveCfg = Release|Win32
+		{E927976B-3AD0-447D-A860-43CFA47F73DC}.Release|x86.Build.0 = Release|Win32
+		{5013BF94-8D54-433B-B45E-6F12E4BFA03C}.Debug|x64.ActiveCfg = Debug|x64
+		{5013BF94-8D54-433B-B45E-6F12E4BFA03C}.Debug|x64.Build.0 = Debug|x64
+		{5013BF94-8D54-433B-B45E-6F12E4BFA03C}.Debug|x86.ActiveCfg = Debug|Win32
+		{5013BF94-8D54-433B-B45E-6F12E4BFA03C}.Debug|x86.Build.0 = Debug|Win32
+		{5013BF94-8D54-433B-B45E-6F12E4BFA03C}.Release|x64.ActiveCfg = Release|x64
+		{5013BF94-8D54-433B-B45E-6F12E4BFA03C}.Release|x64.Build.0 = Release|x64
+		{5013BF94-8D54-433B-B45E-6F12E4BFA03C}.Release|x86.ActiveCfg = Release|Win32
+		{5013BF94-8D54-433B-B45E-6F12E4BFA03C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

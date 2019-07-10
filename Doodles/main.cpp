@@ -6,20 +6,20 @@ int main()
 	int width = 512;
 	int height = 512;
 
-	int iterPerFrame = 11000;
+	int iterPerFrame = 100;
 	const int resolution = 100;
 	int x = resolution / 2;
 	int y = resolution / 2;
 	int r = 0;
 	unsigned int c[resolution][resolution]{0};
 
-	for (int i = 0; i < 4; i++)
+	/*for (int i = 0; i < 4; i++)
 	{
 		r = (r - 1 + (c[x][y] * 2)) % 4;
 		c[x][y] = !c[x][y];
 		x += (r % 2) * (2 - r);
 		y += ((r + 1) % 2) * (-1 + ((r + 1) % 2) * r);
-	}
+	}*/
 	
 	sf::RenderWindow window(sf::VideoMode(width, height), "Langton's ant");
 	window.setFramerateLimit(60);
@@ -57,9 +57,7 @@ int main()
 				break;
 			}
 		}
-		if (firstFrame)
-		{
-			firstFrame = false;
+
 			for (int i = 0; i < iterPerFrame; i++)
 			{
 				r = (r - 1 + (c[x][y] * 2)) % 4;
@@ -69,7 +67,7 @@ int main()
 				if (y < 0)
 					int a = 0;
 			}
-		}
+		
 
 		window.clear();
 		for (int ry = 0; ry < resolution; ry++)

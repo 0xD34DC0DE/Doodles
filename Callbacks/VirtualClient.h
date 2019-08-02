@@ -1,15 +1,11 @@
 #pragma once
 #include "CallbackHandler.h"
 
-class CallbackClient
+class VirtualClient
 {
 public:
-	CallbackClient();
-
-	void eventFunction(uint32_t value);
+	VirtualClient();
 	void registerToHandler(CallbackHandler& handler);
-
-private:
-	
+	virtual void update(uint32_t evnt) = 0;
 };
 

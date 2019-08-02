@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{01CD57B9-2DFA-4018-92E0-4FEA2828041A}</ProjectGuid>
-    <RootNamespace>Callbacks</RootNamespace>
+    <ProjectGuid>{3BA1405A-D60C-4BED-828A-4B52DA34001B}</ProjectGuid>
+    <RootNamespace>UnicodeScrambler</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -42,7 +42,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -115,15 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CallbackClient.cpp" />
-    <ClCompile Include="CallbackHandler.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="VirtualClient.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Callbacks.h" />
-    <ClInclude Include="CallbackHandler.h" />
-    <ClInclude Include="VirtualClient.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
